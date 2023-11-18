@@ -1,5 +1,25 @@
 https://www.youtube.com/watch?v=D9CLhQdLp8w
 https://www.youtube.com/watch?v=CTqqvaVKAJU
+git grep "حر" -- "*.https://ha500di.github.io/F1444-/"
+git log -S"النص المراد البحث عنه"
+استخدام أمر git grep:
+
+هذا الأمر يسمح لك بالبحث عن نصوص داخل ملفات المشروع.
+bash
+Copy code
+git grep "النص المراد البحث عنه" -- "*.امتداد الملف"
+استخدام أمر git log مع خيار -S:
+
+يستخدم هذا الأمر للبحث عن تغييرات تضم نص معين.
+bash
+Copy code
+git log -S"النص المراد البحث عنه"
+استخدام أمر git log مع خيار --grep:
+
+يستخدم هذا الأمر للبحث عن تغييرات تحتوي على رسالة معينة.
+bash
+Copy code
+git log --grep="النص المراد البحث عنه"
 
 N:\$RECYCLE.BIN
 N:\System Volume Information
